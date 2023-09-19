@@ -8,7 +8,7 @@ create SQL table using hash distribution and clustered index
 			§ Hash, use for <60,000,000 row datasets 
 			§ Clustered, use for >60,000,000 row datasets
 		○ Index methods: 
-			§ Copy command, Bulk insert, Polybase
+			§ Copy command, Bulk insert, Polybase.
 		○ Heap:
 			§ Not an index
 			§ Not a distribution
