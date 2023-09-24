@@ -18,7 +18,7 @@ create SQL table using hash distribution and clustered index
 			§ Partitioning in MySQL is used to split or partition the rows of a table into separate tables in different locations, but still, it is treated as a single table. It distributes the portions of the table's data across a file system based on the rules we have set as our requirement.
 
 
-	-- Note on creating Indexes -
+	-- Note on creating Indexes --
 	CREATE TABLE [logdata]
 	(
 	    [Correlation id] [varchar](200) NULL,
